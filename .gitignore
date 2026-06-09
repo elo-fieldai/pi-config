@@ -3,3 +3,8 @@ auth.json
 bin/
 sessions/
 pi-acp/
+
+# sensitive info
+agent/models.json
+agent/trust.json
+agent/run-history.jsonl

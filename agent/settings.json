@@ -1,11 +1,16 @@
 {
-  "lastChangelogVersion": "0.78.0",
+  "lastChangelogVersion": "0.79.0",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
-  "defaultThinkingLevel": "high",
+  "defaultThinkingLevel": "xhigh",
   "enableInstallTelemetry": false,
   "compaction": {
-    "enabled": false,
+    "enabled": true,
     "model": "gemini-3-flash-preview"
-  }
+  },
+  "packages": [
+    "npm:pi-subagents",
+    "npm:pi-codex-goal"
+  ],
+  "hideThinkingBlock": false
 }
